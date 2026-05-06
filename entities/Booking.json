@@ -1,0 +1,117 @@
+{
+  "type": "object",
+  "properties": {
+    "booking_number": {
+      "type": "string"
+    },
+    "customer_email": {
+      "type": "string"
+    },
+    "customer_first_name": {
+      "type": "string"
+    },
+    "customer_last_name": {
+      "type": "string"
+    },
+    "customer_phone": {
+      "type": "string"
+    },
+    "customer_birth_date": {
+      "type": "string"
+    },
+    "customer_address": {
+      "type": "string"
+    },
+    "customer_id_card": {
+      "type": "string"
+    },
+    "customer_drivers_license": {
+      "type": "string"
+    },
+    "start_datetime": {
+      "type": "string"
+    },
+    "end_datetime": {
+      "type": "string"
+    },
+    "duration_hours": {
+      "type": "number"
+    },
+    "pickup_location": {
+      "type": "string"
+    },
+    "pickup_location_detail": {
+      "type": "string"
+    },
+    "return_location": {
+      "type": "string"
+    },
+    "return_location_detail": {
+      "type": "string"
+    },
+    "pickup_surcharge": {
+      "type": "number"
+    },
+    "return_surcharge": {
+      "type": "number"
+    },
+    "base_price": {
+      "type": "number"
+    },
+    "total_price": {
+      "type": "number"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "ceka_na_platbu",
+        "potvrzeno",
+        "probiha",
+        "dokonceno",
+        "zruseno",
+        "nedorazil"
+      ]
+    },
+    "stripe_session_id": {
+      "type": "string"
+    },
+    "stripe_payment_intent_id": {
+      "type": "string"
+    },
+    "paid_at": {
+      "type": "string"
+    },
+    "abroad_travel": {
+      "type": "boolean"
+    },
+    "abroad_countries": {
+      "type": "string"
+    },
+    "animal_transport": {
+      "type": "boolean"
+    },
+    "animal_detail": {
+      "type": "string"
+    },
+    "animal_approved": {
+      "type": "boolean"
+    },
+    "terms_accepted": {
+      "type": "boolean"
+    },
+    "gdpr_accepted": {
+      "type": "boolean"
+    },
+    "admin_notes": {
+      "type": "string"
+    },
+    "car_id": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "Booking"
+}
