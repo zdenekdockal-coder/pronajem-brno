@@ -1,0 +1,55 @@
+{
+  "type": "object",
+  "properties": {
+    "booking_id": {
+      "type": "string"
+    },
+    "return_datetime": {
+      "type": "string"
+    },
+    "odometer_km": {
+      "type": "number"
+    },
+    "odometer_start_km": {
+      "type": "number"
+    },
+    "total_km": {
+      "type": "number"
+    },
+    "included_km": {
+      "type": "number"
+    },
+    "excess_km": {
+      "type": "number"
+    },
+    "excess_km_charge": {
+      "type": "number"
+    },
+    "fuel_full": {
+      "type": "boolean"
+    },
+    "fuel_missing_charge": {
+      "type": "number"
+    },
+    "new_damage": {
+      "type": "boolean"
+    },
+    "damage_notes": {
+      "type": "string"
+    },
+    "extra_cleaning": {
+      "type": "boolean"
+    },
+    "extra_cleaning_charge": {
+      "type": "number"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "confirmed_by_admin": {
+      "type": "boolean"
+    }
+  },
+  "required": [],
+  "name": "ReturnReport"
+}
