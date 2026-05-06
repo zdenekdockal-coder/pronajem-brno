@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "start_datetime": {
+      "type": "string"
+    },
+    "end_datetime": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "created_by_admin": {
+      "type": "boolean"
+    }
+  },
+  "required": [],
+  "name": "AvailabilityBlock"
+}
