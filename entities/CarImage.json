@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "properties": {
+    "car_id": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "order": {
+      "type": "number"
+    },
+    "is_main": {
+      "type": "boolean"
+    }
+  },
+  "required": [],
+  "name": "CarImage"
+}
