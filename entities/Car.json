@@ -1,0 +1,52 @@
+{
+  "type": "object",
+  "properties": {
+    "brand": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "year": {
+      "type": "number"
+    },
+    "engine": {
+      "type": "string"
+    },
+    "transmission": {
+      "type": "string"
+    },
+    "fuel": {
+      "type": "string"
+    },
+    "seats": {
+      "type": "number"
+    },
+    "trunk_liters": {
+      "type": "number"
+    },
+    "color": {
+      "type": "string"
+    },
+    "license_plate": {
+      "type": "string"
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "description": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "main_image_url": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "Car"
+}
