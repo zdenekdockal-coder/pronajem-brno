@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "booking_id": {
+      "type": "string"
+    },
+    "handover_datetime": {
+      "type": "string"
+    },
+    "odometer_km": {
+      "type": "number"
+    },
+    "fuel_full": {
+      "type": "boolean"
+    },
+    "fuel_note": {
+      "type": "string"
+    },
+    "exterior_notes": {
+      "type": "string"
+    },
+    "interior_notes": {
+      "type": "string"
+    },
+    "known_defects": {
+      "type": "string"
+    },
+    "confirmed_by_admin": {
+      "type": "boolean"
+    },
+    "confirmed_by_customer": {
+      "type": "boolean"
+    },
+    "customer_signature_note": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "HandoverReport"
+}
