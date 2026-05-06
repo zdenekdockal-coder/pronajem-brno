@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "booking_id": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string",
+      "enum": [
+        "nadlimitni_km",
+        "chybejici_palivo",
+        "pokuta",
+        "skoda",
+        "mimoradne_cisteni",
+        "priplatek_predani",
+        "jine"
+      ]
+    },
+    "amount": {
+      "type": "number"
+    },
+    "due_date": {
+      "type": "string"
+    },
+    "paid": {
+      "type": "boolean"
+    },
+    "paid_at": {
+      "type": "string"
+    },
+    "note": {
+      "type": "string"
+    },
+    "notified_customer": {
+      "type": "boolean"
+    }
+  },
+  "required": [],
+  "name": "AdditionalCharge"
+}
