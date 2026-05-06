@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "properties": {
+    "report_type": {
+      "type": "string",
+      "enum": [
+        "handover",
+        "return"
+      ]
+    },
+    "report_id": {
+      "type": "string"
+    },
+    "booking_id": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "photo_type": {
+      "type": "string"
+    }
+  },
+  "required": [],
+  "name": "ReportPhoto"
+}
